@@ -1,0 +1,64 @@
+.box {
+    display: flex;
+    padding: 20px;
+    background: #121212;
+    border-radius: 10px;
+    width: 340px;
+    flex-direction: column;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.txt {
+    width: 340px;
+    height: 200px;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-box {
+    display: flex;
+    margin: 20px 0 0 0;
+    text-align: center;
+    display: flex;
+}
+
+.anniu {
+    flex: 1;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #b5b5b5;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete {
+    background-color: rgb(241, 179, 103);
+    color: #fff;
+}
+
+.deng {
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
+.border {
+    margin: 0 0 0 10px;
+}
+
+.anniu:active {
+    background-color: #fff;
+    color: #121212;
+}
+
+.word {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 70px;
+}
